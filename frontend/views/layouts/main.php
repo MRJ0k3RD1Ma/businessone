@@ -108,7 +108,6 @@ AppAsset::register($this);
         <div class="header-upper">
             <div class="container clearfix">
 
-
                 <div class="upper-right clearfix">
 
                     <div class="nav-outer clearfix">
@@ -203,66 +202,6 @@ AppAsset::register($this);
         </div>
         <!--End Header Upper-->
 
-        <!--Sticky Header-->
-        <div class="sticky-header">
-            <div class="container clearfix">
-                <!--Logo-->
-                <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img src="/code/images/logo.png" alt="" title=""></a>
-                </div>
-
-                <!--Right Col-->
-                <div class="right-col float-right">
-                    <!-- Main Menu -->
-                    <nav class="main-menu navbar-expand-lg">
-                        <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="#">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index-2.html">Home Two</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="dropdown"><a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="service.html">Services</a></li>
-                                        <li><a href="single-service.html">Services Details</a></li>
-                                        <li><a href="faq.html">FAQ's</a></li>
-                                        <li><a href="error.html">404 Page</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Projects</a>
-                                    <ul>
-                                        <li><a href="project.html">Projects</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Blog</a>
-                                    <ul>
-                                        <li><a href="blog-1.html">Blog Default</a></li>
-                                        <li><a href="blog-2.html">Blog Clasic</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Shop</a>
-                                    <ul>
-                                        <li><a href="shop-1.html">Shop</a></li>
-                                        <li><a href="shop-cart.html">Shopping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="shop-single.html">Shop Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </nav><!-- Main Menu End-->
-                </div>
-
-            </div>
-        </div>
-        <!--End Sticky Header-->
     </header>
 
     <!--Main Slider-->
