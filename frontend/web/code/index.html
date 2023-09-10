@@ -1,31 +1,26 @@
-<?php
-
-/** @var \yii\web\View $this */
-/** @var string $content */
-
-use common\widgets\Alert;
-use frontend\assets\AppAsset;
-use yii\bootstrap5\Breadcrumbs;
-use yii\bootstrap5\Html;
-use yii\bootstrap5\Nav;
-use yii\bootstrap5\NavBar;
-
-AppAsset::register($this);
-?>
-<?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html>
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
-    <?php $this->head() ?>
+    <meta charset="utf-8">
+    <title>Starting HTML Template</title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/settings.css" rel="stylesheet">
+    <link href="css/layers.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
+
 <body>
-<?php $this->beginBody() ?>
-
-
 <div class="page-wrapper">
 
     <!-- main header -->
@@ -60,7 +55,7 @@ AppAsset::register($this);
                 <div class="clearfix">
                     <div class="float-left">
                         <div class="main-logo">
-                            <a class="navbar-brand pr-50" href="index.html"><img src="/code/images/logo.png" class="logo"
+                            <a class="navbar-brand pr-50" href="index.html"><img src="images/logo.png" class="logo"
                                                                                  alt=""></a>
                         </div>
                     </div>
@@ -175,7 +170,7 @@ AppAsset::register($this);
                                 <div class="dropdown">
                                     <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
-                                                class="fa fa-search"></span></button>
+                                            class="fa fa-search"></span></button>
                                     <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
                                         <li class="panel-outer">
                                             <div class="form-container">
@@ -184,7 +179,7 @@ AppAsset::register($this);
                                                         <input type="search" name="field-name" value=""
                                                                placeholder="Search Here" required>
                                                         <button type="submit" class="search-btn"><span
-                                                                    class="fa fa-search"></span></button>
+                                                                class="fa fa-search"></span></button>
                                                     </div>
                                                 </form>
                                             </div>
@@ -193,7 +188,7 @@ AppAsset::register($this);
                                 </div>
                             </div>
                             <div class="reservation-form-btn consult-form-btn"><span
-                                        class="icon flaticon-menu-options"></span></div>
+                                    class="icon flaticon-menu-options"></span></div>
                         </div>
                     </div>
 
@@ -208,7 +203,7 @@ AppAsset::register($this);
             <div class="container clearfix">
                 <!--Logo-->
                 <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img src="/code/images/logo.png" alt="" title=""></a>
+                    <a href="index.html" class="img-responsive"><img src="images/logo.png" alt="" title=""></a>
                 </div>
 
                 <!--Right Col-->
@@ -276,11 +271,11 @@ AppAsset::register($this);
                         data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1=""
                         data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                         data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                        data-slotamount="default" data-thumb="/code/images/image-1.jpg" data-title="Slide Title"
+                        data-slotamount="default" data-thumb="images/image-1.jpg" data-title="Slide Title"
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                              data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                             src="/code/images/image-1.jpg">
+                             src="images/image-1.jpg">
 
                         <div class="tp-caption"
                              data-paddingbottom="[0,0,0,0]"
@@ -351,11 +346,11 @@ AppAsset::register($this);
                         data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1=""
                         data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                         data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                        data-slotamount="default" data-thumb="/code/images/image-2.jpg" data-title="Slide Title"
+                        data-slotamount="default" data-thumb="images/image-2.jpg" data-title="Slide Title"
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                              data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                             src="/code/images/image-2.jpg">
+                             src="images/image-2.jpg">
 
                         <div class="tp-caption"
                              data-paddingbottom="[0,0,0,0]"
@@ -426,11 +421,11 @@ AppAsset::register($this);
                         data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1=""
                         data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                         data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                        data-slotamount="default" data-thumb="/code/images/image-3.jpg" data-title="Slide Title"
+                        data-slotamount="default" data-thumb="images/image-3.jpg" data-title="Slide Title"
                         data-transition="parallaxvertical">
                         <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                              data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                             src="/code/images/image-3.jpg">
+                             src="images/image-3.jpg">
 
                         <div class="tp-caption"
                              data-paddingbottom="[0,0,0,0]"
@@ -516,7 +511,7 @@ AppAsset::register($this);
                 <div class="services-block-one col-lg-4 col-md-6">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="/code/images/welcome-1.jpg" alt="">
+                            <img src="images/welcome-1.jpg" alt="">
                         </div>
                         <div class="lower-content">
                             <div class="upper-box">
@@ -534,7 +529,7 @@ AppAsset::register($this);
                 <div class="services-block-one col-lg-4 col-md-6">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="/code/images/welcome-2.jpg" alt="">
+                            <img src="images/welcome-2.jpg" alt="">
                         </div>
                         <div class="lower-content">
                             <div class="upper-box">
@@ -552,7 +547,7 @@ AppAsset::register($this);
                 <div class="services-block-one col-lg-4 col-md-6">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="/code/images/welcome-3.jpg" alt="">
+                            <img src="images/welcome-3.jpg" alt="">
                         </div>
                         <div class="lower-content">
                             <div class="upper-box">
@@ -590,7 +585,7 @@ AppAsset::register($this);
                 </div>
                 <div class="col-lg-6">
                     <div class="image mb-30">
-                        <img src="/code/images/about.jpg" alt="">
+                        <img src="images/about.jpg" alt="">
                     </div>
                 </div>
 
@@ -744,7 +739,7 @@ AppAsset::register($this);
         </div>
     </div>
 
-    <section class="testimonial sp-one" style="background-image:url(/code/images/parallax-1.png);">
+    <section class="testimonial sp-one" style="background-image:url(images/parallax-1.png);">
         <div class="container">
             <div class="sec-title centered">
                 <h2>What Client Say</h2>
@@ -758,7 +753,7 @@ AppAsset::register($this);
                         page -- which is fitting, seeing as its trade is in creating visual branding systems.
                     </div>
                     <div class="author">
-                        <div class="image"><img src="/code/images/author-3.jpg" alt=""></div>
+                        <div class="image"><img src="images/author-3.jpg" alt=""></div>
                         <h4>Robert Boult</h4>
                         <p>CO-Founder</p>
                     </div>
@@ -771,7 +766,7 @@ AppAsset::register($this);
                         page -- which is fitting, seeing as its trade is in creating visual branding systems.
                     </div>
                     <div class="author">
-                        <div class="image"><img src="/code/images/author-2.jpg" alt=""></div>
+                        <div class="image"><img src="images/author-2.jpg" alt=""></div>
                         <h4>Maria Josefine</h4>
                         <p>Manager</p>
                     </div>
@@ -784,7 +779,7 @@ AppAsset::register($this);
                         page -- which is fitting, seeing as its trade is in creating visual branding systems.
                     </div>
                     <div class="author">
-                        <div class="image"><img src="/code/images/author-4.jpg" alt=""></div>
+                        <div class="image"><img src="images/author-4.jpg" alt=""></div>
                         <h4>Adam Smith</h4>
                         <p>Manager</p>
                     </div>
@@ -820,7 +815,7 @@ AppAsset::register($this);
                     <div class="projects-block-two mix all col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/code/images/1.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/1.jpg" alt=""></figure>
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="overlay-content">
@@ -837,7 +832,7 @@ AppAsset::register($this);
                     <div class="projects-block-two mix all Marketing col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/code/images/2.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/2.jpg" alt=""></figure>
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="overlay-content">
@@ -854,7 +849,7 @@ AppAsset::register($this);
                     <div class="projects-block-two mix all Finance col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/code/images/3.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/3.jpg" alt=""></figure>
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="overlay-content">
@@ -871,7 +866,7 @@ AppAsset::register($this);
                     <div class="projects-block-two mix all Finance Marketing col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/code/images/4.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/4.jpg" alt=""></figure>
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="overlay-content">
@@ -888,7 +883,7 @@ AppAsset::register($this);
                     <div class="projects-block-two mix all Growth col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/code/images/5.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/5.jpg" alt=""></figure>
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="overlay-content">
@@ -905,7 +900,7 @@ AppAsset::register($this);
                     <div class="projects-block-two mix all Consultin col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/code/images/6.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/6.jpg" alt=""></figure>
                                 <div class="overlay-box">
                                     <div class="overlay-inner">
                                         <div class="overlay-content">
@@ -929,19 +924,19 @@ AppAsset::register($this);
         <div class="container">
             <div class="five-item-carousel owl-carousel owl-theme owl-dot-none owl-nav-none">
                 <div class="img-box">
-                    <img src="/code/images/1.jpg" alt="">
+                    <img src="images/1.jpg" alt="">
                 </div>
                 <div class="img-box">
-                    <img src="/code/images/2.jpg" alt="">
+                    <img src="images/2.jpg" alt="">
                 </div>
                 <div class="img-box">
-                    <img src="/code/images/3.jpg" alt="">
+                    <img src="images/3.jpg" alt="">
                 </div>
                 <div class="img-box">
-                    <img src="/code/images/1.jpg" alt="">
+                    <img src="images/1.jpg" alt="">
                 </div>
                 <div class="img-box">
-                    <img src="/code/images/2.jpg" alt="">
+                    <img src="images/2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -954,7 +949,7 @@ AppAsset::register($this);
             <div class="row">
                 <div class="col-lg-5 col-md-6">
                     <div class="image">
-                        <img src="/code/images/people.png" alt="">
+                        <img src="images/people.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6">
@@ -995,7 +990,7 @@ AppAsset::register($this);
         </div>
     </section>
 
-    <section class="call-to-action-one text-center sp-one" style="background-image:url(/code/images/parallax-2.jpg);">
+    <section class="call-to-action-one text-center sp-one" style="background-image:url(images/parallax-2.jpg);">
         <div class="container">
             <div class="default-video-box">
                 <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s"
@@ -1020,39 +1015,39 @@ AppAsset::register($this);
                 <div class="news-block-one col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image">
-                            <a href="blog-details.html"><img src="/code/images/news-1.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="images/news-1.jpg" alt=""></a>
                             <div class="post-time">16 Jan, 2018</div>
                         </div>
                         <div class="lower-content">
                             <h3><a href="blog-details.html">How to become a best sale marketer in a year!</a></h3>
                             <a href="blog-details.html" class="more-detail">More Details <span
-                                        class="icon fa fa-long-arrow-right"></span></a>
+                                    class="icon fa fa-long-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
                 <div class="news-block-one col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image">
-                            <a href="blog-details.html"><img src="/code/images/news-2.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="images/news-2.jpg" alt=""></a>
                             <div class="post-time">16 Jan, 2018</div>
                         </div>
                         <div class="lower-content">
                             <h3><a href="blog-details.html">Finance and legal work throughout the project</a></h3>
                             <a href="blog-details.html" class="more-detail">More Details <span
-                                        class="icon fa fa-long-arrow-right"></span></a>
+                                    class="icon fa fa-long-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
                 <div class="news-block-one col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image">
-                            <a href="blog-details.html"><img src="/code/images/news-3.jpg" alt=""></a>
+                            <a href="blog-details.html"><img src="images/news-3.jpg" alt=""></a>
                             <div class="post-time">16 Jan, 2018</div>
                         </div>
                         <div class="lower-content">
                             <h3><a href="blog-details.html">How to become a best sale marketer in a year!</a></h3>
                             <a href="blog-details.html" class="more-detail">More Details <span
-                                        class="icon fa fa-long-arrow-right"></span></a>
+                                    class="icon fa fa-long-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -1069,7 +1064,7 @@ AppAsset::register($this);
                     id="contact-google-map"
                     data-map-lat="40.700843"
                     data-map-lng="-74.004012"
-                    data-icon-path="/code/images/map-marker.png"
+                    data-icon-path="images/map-marker.png"
                     data-map-title="Chester"
                     data-map-zoom="11">
             </div>
@@ -1150,7 +1145,7 @@ AppAsset::register($this);
                     <!--footer about one -->
                     <div class="footer-about footer-column-border col-xl-4 col-lg-6">
                         <div class="inner">
-                            <div class="footer-logo"><img src="/code/images/footer-logo.png" alt=""></div>
+                            <div class="footer-logo"><img src="images/footer-logo.png" alt=""></div>
                             <div class="text">Over 24 years experience and knowledge international standards,
                                 technologicaly changes and industrial systems, we are dedicated to provides seds the
                                 best and economical solutions to our valued.
@@ -1235,8 +1230,38 @@ AppAsset::register($this);
 </button>
 
 
+<!-- jequery plugins -->
 
-<?php $this->endBody() ?>
+<script src="js/jquery.js"></script>
+<script src="js/popover.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--Revolution Slider-->
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution.extension.actions.min.js"></script>
+<script src="js/revolution.extension.carousel.min.js"></script>
+<script src="js/revolution.extension.kenburn.min.js"></script>
+<script src="js/revolution.extension.layeranimation.min.js"></script>
+<script src="js/revolution.extension.migration.min.js"></script>
+<script src="js/revolution.extension.navigation.min.js"></script>
+<script src="js/revolution.extension.parallax.min.js"></script>
+<script src="js/revolution.extension.slideanims.min.js"></script>
+<script src="js/revolution.extension.video.min.js"></script>
+<script src="js/main-slider-script.js"></script>
+
+
+<script src="js/plugins.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+
+<script src="js/script.js"></script>
+
+<!-- map script -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRvBPo3-t31YFk588DpMYS6EqKf-oGBSI"></script>
+<script src="js/gmaps.js"></script>
+<script id="map-script" src="js/map-script.js"></script>
+
 </body>
 </html>
-<?php $this->endPage();
